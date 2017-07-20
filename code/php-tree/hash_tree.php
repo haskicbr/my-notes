@@ -43,8 +43,6 @@ class Tree
         $this->categories = $hash_data;
         $this->sum_categories = $hash_data;
 
-        $this->full_sum = [];
-
         $this->createTree($this->tree);
         $this->createTreeHtml();
     }
